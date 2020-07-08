@@ -1,0 +1,122 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bg-halka-green {
+  background-color: #f0fff0;
+}
+#books {
+  background-color: #f0fff0;
+}
+#books h1 {
+  font-size: 48px;
+}
+#books h1 span {
+  color: #21b573;
+}
+
+#books p {
+  font-size: 16px;
+  color: #6c6b6b;
+}
+
+.books {
+  margin: 100px 0;
+}
+.book-box {
+  text-align: center;
+  padding: 30px;
+  background-color: #f7fffb;
+  border-radius: 8px;
+}
+.book-box img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+.book-box h3 {
+  font-size: 24px;
+  color: #413960;
+}
+.book-box small {
+  color: #585859;
+}
+.book-box:hover {
+  background-color: #fff;
+  box-shadow: 2px 5px 10px 3px bisque;
+}
+
+/* ========= Courses =========  */
+.course-box {
+  box-shadow: 0 0 10px 3px #0000001a;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+
+.course-box h4 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 24px;
+  color: #413960;
+}
+
+.course-box small {
+  font-size: 16px;
+  color: #585859;
+}
+
+.course-box-footer {
+  padding-top: 40px;
+  display: flex;
+  color: #585859;
+  justify-content: space-between;
+}
+
+/* ========= Testimonial =========  */
+.testimonial-box img {
+  width: 100px;
+  margin-right: 30px;
+}
+
+.testimonial-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer {
+  background-color: #272530;
+  color: #fff;
+  font-size: 16px;
+}
+#footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* ======== Responsive ========= */
+@media screen and (max-width: 992px) {
+  #books h1 {
+    font-size: 35px;
+  }
+  #books h5 {
+    font-size: 14px;
+  }
+  #books p {
+    font-size: 14px;
+  }
+  #books br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #books {
+    text-align: center;
+  }
+  .book-box {
+    margin: 10px 0;
+  }
+  .course-box {
+    margin: 10px 0;
+  }
+}
